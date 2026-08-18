@@ -1,0 +1,30 @@
+body{
+margin:0;
+padding:0;
+}
+.firstrow{
+height:49px;
+width:auto;
+background-color:#252525;
+padding-left:187px;
+display:flex;
+align-items:center;
+flex-direction:row;
+}
+.call{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:4px;
+}
+.call img{
+height:17px;
+width:auto;
+transform:scaleX(-1);
+}
+.call p{
+color:#ccc;
+font-weight:500;
+font-size:14px;
+font-family: 'Roboto', 'Montserrat', sans-serif;
+}
