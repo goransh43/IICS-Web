@@ -11,20 +11,85 @@ display:flex;
 align-items:center;
 flex-direction:row;
 }
+.info{
+display:flex;
+flex-direction:row;
+}
 .call{
 display:flex;
 align-items:center;
 justify-content:center;
 gap:4px;
 }
-.call img{
+.callimg{
 height:17px;
 width:auto;
 transform:scaleX(-1);
 }
-.call p{
+.itext{
 color:#ccc;
 font-weight:500;
 font-size:14px;
 font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+.mail{
+margin-left:52px;
+}
+.clock{
+display:flex;
+align-items:center;
+justify-content:center;
+margin-left:35px;
+gap:4px;
+}
+.clock img{
+height:15px;
+width:auto;
+}
+.na{
+display:flex;
+padding-left:200px;
+height:246px;
+width:auto;
+}
+.nalogo{
+padding-top:35px;
+height:100px;
+width:auto;
+}
+.callimg2{
+height:22px;
+margin-left:545px;
+width:auto;
+transform:scaleX(-1);
+margin-top:40px;
+}
+.contact{
+font-weight:500;
+font-size:16px;
+font-family: 'Roboto', 'Montserrat', sans-serif;
+margin-left:30px;
+margin-top:30px;
+}
+.contact2{
+font-weight:300;
+font-size:14px;
+color:grey;
+font-family: 'Roboto', 'Montserrat', sans-serif;
+margin-left:30px;
+margin-top:-11px;
+}
+.loc{
+height:22px;
+width:auto;
+margin-top:40px;
+margin-left:33px
+}
+.icon-circle img{
+outline: 1px solid #e0e0e0;
+outline-offset: 10px;
+border-radius: 50%;
+}
+.icon-circle img:hover{
+outline:transparent;
 }
